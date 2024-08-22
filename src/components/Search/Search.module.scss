@@ -1,0 +1,51 @@
+.container{
+  background-color: rgb(49, 48, 58);
+gap: 10;
+.text{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    color:var(--second-color);
+}
+
+.icon{
+   width: 35px;
+    height: 35px;
+    background-color: inherit;
+    
+}
+  .form {
+      border-radius: 30px;
+      border: 2px solid var(--second-color);
+      overflow: hidden;
+      padding: 2px;
+      display: flex;
+
+      .input {
+          background-color: rgb(49, 48, 58);
+        border: none;
+        font-size: 14px;
+        padding: 15px 5px;
+        outline:none;
+      }
+      
+      .btn {
+        font-size: 12px;
+  background-color: rgb(193, 198, 203);
+        border-radius: 30px;
+        border: none;
+        padding: 5px 10px;
+      }
+      .btn:hover {
+        cursor: pointer;
+        background-color: rgb(151, 142, 190);
+      }
+      .icon:hover{
+          background-color: rgb(151, 142, 190);
+      }
+    }
+}
+
+@media (max-width: 900px){
+  
+}

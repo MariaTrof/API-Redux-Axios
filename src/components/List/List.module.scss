@@ -1,0 +1,12 @@
+.title {
+  color: azure;
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+  grid-gap: 32px;
+  position: relative;
+  z-index: 1;
+}
