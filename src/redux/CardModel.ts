@@ -16,7 +16,6 @@ CardModel.init(
   }
 );
 //на будущее: создать еще одну модель для User и связать её с помощью:
-
 //UserModel.hasOne(CardModel, { foreignKey: 'userId' });
 //CardModel.belongsTo(UserModel, { foreignKey: 'userId' });
 
