@@ -4,3 +4,5 @@ CREATE TABLE cards (
     data DATE,
     id SERIAL PRIMARY KEY
 );
+
+ALTER TABLE cards ADD COLUMN img VARCHAR(255);
